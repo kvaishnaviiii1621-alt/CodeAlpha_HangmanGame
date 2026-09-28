@@ -47,10 +47,10 @@ while incorrect_guesses < max_guesses:
 
     # Check whether the guess is correct
     if guess in word:
-        print("✅ Correct guess!")
+        print("Correct guess!")
     else:
         incorrect_guesses += 1
-        print("❌ Wrong guess!")
+        print("Wrong guess!")
         print("Incorrect guesses:", incorrect_guesses, "/", max_guesses)
 
 else:
